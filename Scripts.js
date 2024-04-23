@@ -1,9 +1,9 @@
 let tamanhoBola = "medio"
-function AlterarTamanho(tamanho){
+function AlterarTamanho(tamanho,cor){
 
-   tamanhoBola = tamanho;
+   tamanhoBola = tamanho + cor;
 };
 
 console.log(tamanhoBola);
-AlterarTamanho("grande");
+AlterarTamanho("grande", "verde");
 console.log(tamanhoBola);
